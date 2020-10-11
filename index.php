@@ -1,4 +1,9 @@
-<?php require './conn.php'; ?>
+<?php 
+
+require './conn.php'; 
+session_start();
+
+?>
 
 <!doctype html>
 <html lang="en">
@@ -50,6 +55,7 @@
             if(mysqli_num_rows($result)>0){
                 while($users=mysqli_fetch_assoc($result)){
                     if($uname == $users['u_username'] && $upass == $users['u_pass']){
+                        $_SESSION['u_username'] = $uname;
                         header('Location: ./dash.php');
                     } else {
                         echo "<script>alert('Password not correct!');</script>";
