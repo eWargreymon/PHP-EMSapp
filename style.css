@@ -1,0 +1,25 @@
+body{
+    background-color: lightblue;
+}
+
+.cardTitle{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+.cardTitleP{
+    text-align: center;
+}
+
+.registerLink, .registerLink:hover{
+    color: white;
+}
+
+.backLink{
+    color: white;
+    border-color: white;
+}
+
+.backLink:hover{
+    border-color: transparent;
+}
