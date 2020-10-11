@@ -17,10 +17,10 @@
     <!--    Register form     -->
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-4 col-lg-push-4 col-md-push-4">
+            <div class="col-lg-4 col-md-6 col-lg-push-4 col-md-push-6">
                 <div class="card bg-danger" style="margin-top: 50px;">
-                    <div class="card-title pt-2 pl-3 cardTitle">Register</div>
-                    <p class="pl-3 mb-0 cardTitleP">Add de the data required</p>
+                    <div class="card-title pt-2 cardTitle">Register</div>
+                    <p class="mb-0 cardTitleP">Add de the data required</p>
                     <div class="card-body">
                         <form action="" method="POST">
                             <div class="form-group mb-3">
